@@ -7,10 +7,10 @@
 </template>
 
 <script>
-// import { pageHeight } from "@/common/js/getObj.js"
+import { pageHeight } from "@/common/js/common.js"
   export default {
     mounted () {
-    //   pageHeight('.child-view')
+       pageHeight('.child-view')
     },
     data () {
       return {
