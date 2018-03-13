@@ -1,7 +1,7 @@
 <template>
   <div class="test">
     <!-- <div @click="goback">ddd</div> -->
-    <div id="main" style="max-width: 100%;height: 20rem;"></div>
+    <div id="main" style="max-width: 100%;height:22rem"></div>
   </div>
 </template>
 
@@ -170,8 +170,12 @@ export default {
           //提示框
           tooltip: {
               trigger: 'axis',
+              textStyle: {
+                  fontSize:10,
+                  color:'#888'
+              },
               triggerOn:'click',
-              // position:[3,3],
+            //   position:[3,3],
               axisPointer: {
                   link: [{
                     xAxisIndex: [0, 1]
@@ -180,8 +184,10 @@ export default {
                       color: '#376df4',
                       width: 2,
                       opacity: 1
-                  }
+                },
+                
             }
+
           },
           // legend: {
           //     data: ['日K', 'MA5', 'MA10', 'MA15'],
@@ -356,5 +362,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
-
+.main {}
 </style>

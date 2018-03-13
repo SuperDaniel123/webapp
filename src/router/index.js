@@ -22,11 +22,11 @@ export default new Router({
           name:'index',
           component:index
         },
-        {
-          path:'/test',
-          name:'test',
-          component:test
-        }
+        // {
+        //   path:'/test',
+        //   name:'test',
+        //   component:test
+        // }
       ]
     }
   ]
